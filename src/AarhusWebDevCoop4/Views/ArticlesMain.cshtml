@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<h1>@Umbraco.Field("articlestitle")</h1>
+	<p>@Umbraco.Field("articlescontent")</p>
+
+@Umbraco.RenderMacro("listArticles")
+	
