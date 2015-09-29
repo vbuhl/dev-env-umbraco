@@ -38,6 +38,7 @@ namespace AarhusWebDevCoop4.Controllers
                     smtp.DeliveryMethod = SmtpDeliveryMethod.Network; smtp.UseDefaultCredentials = false;
                     smtp.EnableSsl = true;
                     smtp.Host = "smtp.gmail.com"; smtp.Port = 587;
+                    //for authentication to work, add web/app in google account
                     smtp.Credentials = new System.Net.NetworkCredential("vickibuhl86@gmail.com", "vtuucuephckczoav");
                     smtp.EnableSsl = true;
 
