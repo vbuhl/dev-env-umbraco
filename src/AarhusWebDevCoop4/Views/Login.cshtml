@@ -2,6 +2,7 @@
 @{
     Layout = "Master.cshtml";
 }
+<div class="container">
 @if(!Members.GetCurrentLoginStatus().IsLoggedIn){
 	@Html.Partial("login");
 }else{
@@ -9,3 +10,4 @@
 		@Html.Partial("logout");	
 	</p>
 }
+</div>
