@@ -1,0 +1,11 @@
+body{
+overflow-y:scroll;
+}
+img{
+	width: 100%;
+}
+.footer{
+text-align: center;
+	color: #ccc;
+}
+

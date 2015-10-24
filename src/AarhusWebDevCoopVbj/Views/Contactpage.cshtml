@@ -1,0 +1,7 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<h1>@Umbraco.Field("contactPageTitle")</h1>
+	<p>@Umbraco.Field("contactPageContents")</p>
+	@Html.Action("Index", "ContactFormSurface")
